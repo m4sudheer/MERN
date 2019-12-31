@@ -8,6 +8,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   res.send('hello');
+  res.send('hello');
 });
 
 const PORT = process.env.PORT || 6000;
